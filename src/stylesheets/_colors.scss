@@ -23,7 +23,7 @@ $white: #ffffff; //white
 $wave: #163c4d; //wave
 $wave-light: #6b8591; //wave-light
 $flamingo: #e16a7c; //flamingo
-$mist: #edf1f3; //mist (ededed)
+$mist: #d0d6dd;//#f4f6f8; //mist (ededed)
 $sapphire: #47a1ad; //$sapphire
 $jade: #6b9e78; //jade
 $turmeric: #cc850a; //turmeric
@@ -34,11 +34,13 @@ $mist-s30: #71777d;
 $mist-s20: #d5d9db;
 $mist-s10: #e1e5e7;
 $mist-light: #f7fafc;
-$flamingo-s40: #bd4257;
+$flamingo-s40: #fedc04;
 
-$button-normal: $wave; //button color
+$button-normal: #fedc04; //button color
 $button-disabled: #909090; //disabled state for links and buttons
 
-$link-normal: $black; //links color
-$link-hover: #9b293c; //links hover state color
+$link-normal: $white; //links color
+$link-hover: #fedc04; //links hover state color
 $error-text: #d14234;
+
+$dark-highlight: #fedc04;

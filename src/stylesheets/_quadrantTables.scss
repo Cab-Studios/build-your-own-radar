@@ -118,6 +118,10 @@
             line-height: inherit !important;
             margin: 0 !important;
           }
+
+          & > p {
+              margin-bottom: 25px !important;
+          }
         }
       }
     }

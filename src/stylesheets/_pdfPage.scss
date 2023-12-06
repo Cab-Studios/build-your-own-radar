@@ -56,11 +56,7 @@
       max-width: none;
 
       &.agree-terms {
-        a:after {
-          content: ' <' attr(href) '> ';
-          font-weight: normal;
-          color: black;
-        }
+          display: none;
       }
     }
   }

@@ -317,7 +317,7 @@ const Factory = function () {
     })
 
     const paramId = process.env.DATA_SRC_PARAM ?? getDocumentOrSheetId()
-    const domainName = DomainName(paramId)
+    const domainName = paramId ? DomainName(paramId) : null;
     if (paramId && paramId.endsWith('.csv')) {
       sheet = CSVDocument(paramId)
       sheet.init().build()

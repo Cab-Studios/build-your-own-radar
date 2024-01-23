@@ -353,7 +353,7 @@ const Factory = function () {
 }
 
 function setDocumentTitle() {
-  document.title = 'Build your own Radar'
+  document.title = 'Technology Radar'
 }
 
 function plotLoading(content) {
